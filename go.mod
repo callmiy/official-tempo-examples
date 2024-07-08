@@ -60,8 +60,8 @@ require (
 	go.opentelemetry.io/collector v0.102.1
 	go.opentelemetry.io/collector/component v0.102.1
 	go.opentelemetry.io/collector/confmap v0.102.1
-	go.opentelemetry.io/collector/consumer v0.102.1
-	go.opentelemetry.io/collector/pdata v1.9.0
+	go.opentelemetry.io/collector/consumer v0.104.0
+	go.opentelemetry.io/collector/pdata v1.11.0
 	go.opentelemetry.io/collector/semconv v0.102.1 // indirect
 	go.opentelemetry.io/otel v1.27.0
 	go.opentelemetry.io/otel/bridge/opencensus v1.27.0
@@ -78,7 +78,7 @@ require (
 	golang.org/x/time v0.5.0
 	google.golang.org/api v0.169.0
 	google.golang.org/grpc v1.64.0
-	google.golang.org/protobuf v1.34.1
+	google.golang.org/protobuf v1.34.2
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 )

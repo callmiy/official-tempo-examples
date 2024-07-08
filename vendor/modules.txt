@@ -1438,7 +1438,7 @@ go.opentelemetry.io/collector/confmap/provider/yamlprovider
 # go.opentelemetry.io/collector/connector v0.102.1
 ## explicit; go 1.21.0
 go.opentelemetry.io/collector/connector
-# go.opentelemetry.io/collector/consumer v0.102.1
+# go.opentelemetry.io/collector/consumer v0.104.0
 ## explicit; go 1.21.0
 go.opentelemetry.io/collector/consumer
 go.opentelemetry.io/collector/consumer/consumererror
@@ -1472,16 +1472,18 @@ go.opentelemetry.io/collector/featuregate
 go.opentelemetry.io/collector/otelcol
 go.opentelemetry.io/collector/otelcol/internal/configunmarshaler
 go.opentelemetry.io/collector/otelcol/internal/grpclog
-# go.opentelemetry.io/collector/pdata v1.9.0
+# go.opentelemetry.io/collector/pdata v1.11.0
 ## explicit; go 1.21.0
 go.opentelemetry.io/collector/pdata/internal
 go.opentelemetry.io/collector/pdata/internal/data
 go.opentelemetry.io/collector/pdata/internal/data/protogen/collector/logs/v1
 go.opentelemetry.io/collector/pdata/internal/data/protogen/collector/metrics/v1
+go.opentelemetry.io/collector/pdata/internal/data/protogen/collector/profiles/v1experimental
 go.opentelemetry.io/collector/pdata/internal/data/protogen/collector/trace/v1
 go.opentelemetry.io/collector/pdata/internal/data/protogen/common/v1
 go.opentelemetry.io/collector/pdata/internal/data/protogen/logs/v1
 go.opentelemetry.io/collector/pdata/internal/data/protogen/metrics/v1
+go.opentelemetry.io/collector/pdata/internal/data/protogen/profiles/v1experimental
 go.opentelemetry.io/collector/pdata/internal/data/protogen/resource/v1
 go.opentelemetry.io/collector/pdata/internal/data/protogen/trace/v1
 go.opentelemetry.io/collector/pdata/internal/json
@@ -1930,8 +1932,8 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/test/bufconn
-# google.golang.org/protobuf v1.34.1
-## explicit; go 1.17
+# google.golang.org/protobuf v1.34.2
+## explicit; go 1.20
 google.golang.org/protobuf/encoding/protodelim
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
